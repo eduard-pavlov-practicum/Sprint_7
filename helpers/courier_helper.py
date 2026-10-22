@@ -1,7 +1,7 @@
 import pytest
 import requests
 import allure
-from .constants import CREATE_COURIER_URL, LOGIN_COURIER_URL
+from helpers.constants import CREATE_COURIER_URL, LOGIN_COURIER_URL
 
 
 @allure.step('Регистрируем курьера {courier_body}')
