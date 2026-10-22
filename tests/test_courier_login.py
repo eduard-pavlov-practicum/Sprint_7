@@ -4,6 +4,7 @@ from helpers.courier_helper import register_new_courier, login_courier
 from helpers.constants import LOGIN_COURIER_URL
 
 
+@allure.epic("API учебного сервиса Самокат")
 class TestCourierLogin:
     @allure.story("Авторизация курьера")
     @allure.title("Успешная авторизация курьера с валидными учетными данными")

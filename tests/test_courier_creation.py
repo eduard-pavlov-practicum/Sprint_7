@@ -3,6 +3,7 @@ import allure
 from helpers.courier_helper import register_new_courier
 
 
+@allure.epic("API учебного сервиса Самокат")
 class TestCourierCreation:
 
     @allure.story("Создание курьера")
